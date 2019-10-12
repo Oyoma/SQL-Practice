@@ -1,8 +1,7 @@
---This SQL code below returns the total number of unique customer_id that have values greater than $5 from the payment table
 
 SELECT 
 	count (Distinct payment.customer_id)
 FROM 
-  payment
+ 	payment
 WHERE 
-  payment.amount > 5.0
+ 	payment.amount > 5.0
